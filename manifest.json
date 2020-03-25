@@ -3,6 +3,9 @@
   "name": "dissolveChromeExtension",
   "description": "A chrome extension for dissolve's personal use. 100% useless.",
   "version": "0.0.1",
+  "permissions": [
+    "tabs"
+  ],
   "browser_action": {
     "default_icon": "./favicon.png",
     "default_title": "dissolveChromeExtension",
@@ -13,8 +16,5 @@
       "matches": ["http://*/*", "https://*/*"],
       "js": ["index.js"]
     }
-  ],
-  "permissions": [
-    "tabs"
   ]
 }
