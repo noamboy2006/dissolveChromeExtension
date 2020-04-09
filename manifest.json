@@ -5,8 +5,7 @@
   "version": "0.0.1",
   "permissions": [
     "tabs",
-    "http://*/*",
-    "https://*/*"
+    "https://open.spotify.com/*"
   ],
   "browser_action": {
     "default_icon": "favicon.png",
